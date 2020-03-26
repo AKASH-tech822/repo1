@@ -1,0 +1,48 @@
+
+<html>
+    <head>
+        <title>
+            MY SEARCH ENGINE
+        </title>
+         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        
+       
+        <link rel="stylesheet" type="text/css" href="newcss.css">
+    </head>
+    <body id="cointain">
+         <div id="header">
+            <a href="#" class="logo">
+                <img src="./ing/g1mt8ve5.bmp" alt="ironman" height="80px" width="200px">
+            </a>
+            
+            
+            <nav>
+                <ul style="list-style-type: none;">
+                    <li><a href="#identity">ABOUT</a></li>
+                    
+            </nav>
+             
+        </div>
+        <div class="form">
+            <form id="frmSearch" method="get"/>
+            <input type="text" id="txtSearch" placeholder="Type here"/>
+            
+           <div class="buttons">
+               <input type="submit" value="SEARCH" id="google_search">
+           </div>
+            
+            <script type="text/javascript">
+                document.getElementById('frmSearch').onsubmit=function()
+                {
+                    window.location='http://www.google.com/search?q='+document.getElementById('txtSearch').value;
+                    return false;
+                }
+            </script>
+        </div>
+        <footer>
+            <ul class="footer_left">
+            <li> <a href="http://www.evirishealth.com/">eViRis Health</a></li>
+            </ul>
+        
+    </body>
+</html>
